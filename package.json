@@ -1,0 +1,34 @@
+{
+  "name": "ecommerce_webapp",
+  "version": "1.0.0",
+  "description": "It is an Ecommerce store.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnil2411/Ecommerce_Webapp.git"
+  },
+  "keywords": [
+    "Ecommerce",
+    "T-shirt",
+    "Shirt",
+    "Jeans",
+    "Electronic",
+    "Gadgets"
+  ],
+  "author": "Swapnil Darge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapnil2411/Ecommerce_Webapp/issues"
+  },
+  "homepage": "https://github.com/swapnil2411/Ecommerce_Webapp#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
