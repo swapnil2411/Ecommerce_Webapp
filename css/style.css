@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+ul,li{
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #131313;
+    font-weight: 500;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo a h1{
+    font-family: "Overpass", sans-serif !important;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #131313;
+}
+
+.logo a h1 span{
+    color: #0189cc;
+    font-family: "Overpass", sans-serif !important;
+}
+
+.webapp_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.webapp_header .menu_links ul{
+    display: flex;
+    align-items: center;
+}
+
+.webapp_header .menu_links ul li:not(:last-child){
+    margin-right: 25px;
+}
+
+.webapp_header .menu_links ul li a{
+    padding: 10px;
+}
+
+.webapp_header .right_area_header{
+    display: flex;
+    align-items: center;
+}
+
+.webapp_header .right_area_header .user_login,
+.webapp_header .right_area_header .cart,
+.webapp_header .right_area_header .hamburger{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.webapp_header .right_area_header .hamburger{
+    display: none;
+}
+
+.webapp_header .right_area_header .user_login{
+    margin-right: 25px;
+}
+
+.webapp_header .right_area_header .user_login svg,
+.webapp_header .right_area_header .cart svg{
+    margin-right: 5px;
+}
+
+.webapp_header .right_area_header .user_login span,
+.webapp_header .right_area_header .cart span{
+    font-weight: 500;
+}
+
+.webapp_header .right_area_header .user_login svg,
+.webapp_header .right_area_header .cart svg,
+.webapp_header .right_area_header .hamburger svg{
+    font-size: 24px;
+}
+
+.webapp_header .right_area_header .cart{
+    position: relative;
+}
+
+.webapp_header .right_area_header .cart span{
+    height: 20px;
+    width: 20px;
+    background: #0189cc;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding-bottom: 2px;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
+
+/* Banner Slider CSS */
+
+.hero_slider{
+    height: calc(100vh - 66px);
+}
+
+.hero_slider div{
+    display: block !important;
+}
+
+.hero_slider img{
+    height: calc(100vh - 66px);
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero_slider .slick-dots{
+    width: max-content;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.hero_slider .slick-dots li button{
+    padding: 0 !important;
+    position: relative;
+}
+
+.hero_slider .slick-dots li button:before{
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_slider .slick-dots li.slick-active button:before{
+    color: #0189cc;
+}
+
+.hero_slider .slider{
+    position: relative;
+}
+
+.hero_slider .slider .slider_container{
+    max-width: 1280px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    position: absolute;
+    z-index: 999;
+}
+
+.hero_slider .slider .slider_container .banner_content h2{
+    font-size: 75px;
+    font-weight: 800;
+    color: #131313;
+    white-space: pre-line;
+}
+
+.hero_slider .slider .slider_container .banner_content p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0;
+    color: #131313;
+}
+
+.hero_slider .slider .slider_container .banner_content.white_color_text h2,
+.hero_slider .slider .slider_container .banner_content.white_color_text p{
+    color: #fff;
+}
+
+.hero_slider .slider .slider_container .banner_content button{
+    min-width: 125px;
+    height: 45px;
+    background: #0189cc;
+    border: 1px solid #0189cc;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
